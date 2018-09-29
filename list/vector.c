@@ -1,6 +1,5 @@
 #include "vector.h"
 #include <stdlib.h>
-#include <stdbool.h>
 
 void vector_init(Vector *v) {
     v->size = 0;
@@ -49,4 +48,5 @@ void* vector_last(Vector *v) {
 
 void vector_free(Vector *v) {
     if (v->data) free(v->data);
+    v->data = NULL;
 }
