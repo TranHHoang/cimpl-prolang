@@ -47,6 +47,7 @@ void* vector_last(Vector *v) {
 }
 
 void vector_free(Vector *v) {
+    for (int i = 0; i < v->size; i++) free(v->data[i]);
     if (v->data) free(v->data);
     v->data = NULL;
 }

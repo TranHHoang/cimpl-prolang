@@ -1,13 +1,11 @@
 #include "tokstream.h"
 
-void tokstream_init(TokenStream *ts, char *path) {
-    ts->inFile = fopen(path, "r");
+void tokstream_init(TokenStream *ts) {
     vector_init(&ts->stream);
     ts->pos = -1;
 }
 
 void tokstream_free(TokenStream *ts) {
-    fclose(ts->inFile);
     vector_free(&ts->stream);
 }
 

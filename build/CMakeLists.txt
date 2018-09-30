@@ -3,6 +3,7 @@ project (CProLang C)
 
 set(CMAKE_CXX_COMPILER gcc)
 set(CMAKE_C_FLAGS "-std=c11")
+
 set(SRCS
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/main/main.c
     ${CMAKE_CURRENT_SOURCE_DIR}/../src/list/vector.c

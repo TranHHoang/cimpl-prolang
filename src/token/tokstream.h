@@ -1,16 +1,14 @@
 #ifndef TOKSTREAM_H
 #define TOKSTREAM_H
-#include <stdio.h>
 #include "token.h"
 #include "../list/vector.h"
 
 typedef struct TokenStream {
-    FILE *inFile;
     Vector stream;
     int pos;
 } TokenStream;
 
-void tokstream_init(TokenStream*, char*);
+void tokstream_init(TokenStream*);
 Token* tokstream_next(TokenStream*);
 Token* tokstream_peek(TokenStream*);
 Token* tokstream_dpeek(TokenStream*, size_t); // Peek a specific distance

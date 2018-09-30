@@ -37,8 +37,6 @@ tokstream.h
 /home/hoang/code/cimpl-prolang/src/token/tokstream.h
 
 /home/hoang/code/cimpl-prolang/src/token/tokstream.h
-stdio.h
--
 token.h
 /home/hoang/code/cimpl-prolang/src/token/token.h
 ../list/vector.h
