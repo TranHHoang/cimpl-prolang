@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hoang/code/cimpl-prolang/src/list/vector.c
+vector.h
+/home/hoang/code/cimpl-prolang/src/list/vector.h
+stdlib.h
+-
+
+/home/hoang/code/cimpl-prolang/src/list/vector.h
+stdbool.h
+-
+stddef.h
+-
+
+/home/hoang/code/cimpl-prolang/src/main/main.c
+../token/token.h
+/home/hoang/code/cimpl-prolang/src/token/token.h
+
+/home/hoang/code/cimpl-prolang/src/token/token.c
+token.h
+/home/hoang/code/cimpl-prolang/src/token/token.h
+string.h
+-
+stdlib.h
+-
+
+/home/hoang/code/cimpl-prolang/src/token/token.h
+
+/home/hoang/code/cimpl-prolang/src/token/tokstream.c
+tokstream.h
+/home/hoang/code/cimpl-prolang/src/token/tokstream.h
+
+/home/hoang/code/cimpl-prolang/src/token/tokstream.h
+stdio.h
+-
+token.h
+/home/hoang/code/cimpl-prolang/src/token/token.h
+../list/vector.h
+/home/hoang/code/cimpl-prolang/src/list/vector.h
+

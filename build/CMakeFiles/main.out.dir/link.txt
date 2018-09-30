@@ -1,0 +1,1 @@
+/usr/bin/cc -std=c11  -rdynamic CMakeFiles/main.out.dir/home/hoang/code/cimpl-prolang/src/main/main.c.o CMakeFiles/main.out.dir/home/hoang/code/cimpl-prolang/src/list/vector.c.o CMakeFiles/main.out.dir/home/hoang/code/cimpl-prolang/src/token/token.c.o CMakeFiles/main.out.dir/home/hoang/code/cimpl-prolang/src/token/tokstream.c.o  -o main.out 
