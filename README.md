@@ -5,9 +5,9 @@ Follow the instructions to get a copy of the project on local machine
 ### Prerequisites
 * CMake 3.1
 * C compiler with C11 support
-### Pulling code
+### Clone the repository
 ```
-git pull https://github.com/TranHHoang/cimpl-prolang.git
+git clone https://github.com/TranHHoang/cimpl-prolang.git
 ```
 ### Building from source
 ```
